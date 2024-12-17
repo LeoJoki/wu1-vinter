@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'KerakNeraka';
-  src: url('./KerakNeraka-8Oaoz.otf');
+  font-family: 'edosz';
+  src: url('./edosz.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 :root {
-  --color-bg: rgba(103, 157, 157, 0.587);
+  --color-bg: rgba(255, 14, 14, 0.811);
   --color-fg: #fff;
 
   --font-body: sans-serif;
-  --font-header: 'KerakNeraka', sans-serif;
+  --font-header: 'edosz', sans-serif;
 
   --step--2: clamp(0.6331rem, 0.6141rem + 0.0949vw, 0.6877rem);
   --step--1: clamp(0.844rem, 0.7993rem + 0.2234vw, 0.9724rem);
@@ -33,6 +33,10 @@ body {
     place-items: center;
     background-color: var(--color-bg);
     z-index: -1;
+    background-image: url("IMG_1076.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 main {
@@ -60,4 +64,9 @@ canvas {
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+img {
+    max-width: 100%;
+
 }
